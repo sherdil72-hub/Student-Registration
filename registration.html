@@ -1,0 +1,70 @@
+<html>
+    <head>
+        <title>Registration Form</title>
+        <style>
+        .form-box{
+            width: 350px;
+            margin: auto;
+            padding: 20px;
+            background-color: cadetblue;
+            border: 2px solid black;
+            border-radius: 8px;
+        }
+        label{
+            display: block;
+            font-weight: bold;
+            margin-bottom: 5px;
+        }
+        input,select{
+            width: 100%;
+            padding: 10px;
+            margin: auto;
+            box-sizing: border-box;
+            font-size: 15px;
+        }
+        button{
+            color: green;
+            width: 100%;
+            font-size: 20px;
+            margin-top: 10px;
+        }
+        button:hover{
+            background-color: rgb(0, 255, 234);
+        }
+        .Home{
+            text-align: center;
+            font-size: 30px;
+            margin-top: 30px;
+        }
+        </style>
+    </head>
+    <body>
+        <h1 style="text-align: center; ">Registration Form</h1>
+        <br><br>
+        <body>
+            <div class="form-box">
+            <form>
+                <label for="name" >Full Name</label>
+                <input type="text" >
+                <br><br>
+                <label for="reg" >Roll No</label>
+                <input type="text">
+                <br><br>
+                <label for="email">Email</label>
+                <input type="email">
+                <br><br>
+                <select name="Department" id="Department">
+                    <option>Information Technology</option>
+                    <option>Cyber Security</option>
+                    <option>Artificial Intelligence</option>
+                    <option>Computer Science</option>
+                </select>
+                <a href="thanks.html" target="_blank">
+                <button type="submit">submit</a></button>
+            </form>
+            </div>
+            <div class="Home">
+                <a href="index.html">Back Home</a>
+            </div>
+        </body>
+</html>
